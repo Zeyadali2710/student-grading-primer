@@ -18,7 +18,7 @@ def get_students():
     return: Array of student objects
     """
 
-    students = db.get_students()
+    students = db.get_all_students()
     return jsonify(students), 200
 
 
