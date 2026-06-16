@@ -1,2 +1,6 @@
 no-commit/
 node_modules/
+.env
+frontend/node_modules/
+backend/__pycache__/
+*.pyc
